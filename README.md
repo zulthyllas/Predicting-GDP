@@ -1,31 +1,22 @@
 # Quantifying Future GDP
 
-In this project, I will be attempting to predict future US GDP in order to reasonably quantify the future global economic growth in order to make better investment decisions today.
+In this project, I will be attempting to predict future US GDP in order to reasonably and accurately quantify future global economic growth to help decision makers make better investment decisions and realise superior future investment outcomes.
 
-I will be predicting future US Quarterly GDP on a percentage basis, relative to its prior reading. This is so because the absolute figure for GDP is irrelevant when using future US GDP as a risk management tool. What the stakeholder would be interested in would be whether GDP is growing, slowing or shrinking, relative to its prior reading and not how large future GDP will be in dollar terms.
+I will be predicting future US Quarterly GDP on a percentage basis, relative to its prior reading. This is so because the absolute figure for GDP (measured in USD) is irrelevant when using future US GDP as a risk management tool. Stakeholders would be interested in whether future GDP is on a path of future growth or not relative to its prior reading.
 
-The main point of this project would be to predict quarterly GDP as this is the metric that is reported by the [BEA](https://www.bea.gov/data/gdp/gross-domestic-product) on a quarterly basis.
+The main point of this project would be to predict quarterly GDP as this is the frequency that is reported by the [BEA](https://www.bea.gov/data/gdp/gross-domestic-product).
 
-By offering insights on future quarterly GDP before actual GDP is reported, we stand to be in a position of making a better informed investment decision in an uncertain environment, and when applied appropriately, the insights could lead to positive and meaningful outcome for its intended user.
+By offering insights on future quarterly GDP before actual GDP is reported, we stand to be in a position of making a better informed investment decision in an uncertain environment. When applied appropriately, the insights could lead to positive and meaningful outcome for its intended user.
 
-# Supporting Research
-
-You may find a list of supporting research used for this project here:
-
-1. [TATA Group Invests in Gigafactory in the UK]((https://www.cnbc.com/2023/07/19/indias-tata-group-to-build-5-billion-gigafactory-in-the-uk.html))
-2. [Is the World Economy Dependent on America?](https://www.managementstudyguide.com/world-economy-dependent-on-america.htm)
-3. [EU & US trade](https://www.eeas.europa.eu/united-states-america/european-union-and-united-states_en?s=253#:~:text=Deep%20Economic%20Ties,-The%20EU%2DUS&text=The%20EU%20and%20the%20United%20States%20are%20each%20other's%20main,investment%20markets%20of%20first%20choice.)
-4. [Singapore's Top Trading Partners](https://www.singstat.gov.sg/modules/infographics/singapore-international-trade#:~:text=In%202022%2C%20Mainland%20China%2C%20Malaysia,exports%20to%20these%20trading%20partners.)
-
-5. # Background
+# Background
 
 ## Investing is Risk Management
 
-Investing is a difficult task to carry out successfully. On a personal level, I feel that the term 'investing' is somewhat of a misnomer by itself. Although the act of investing involves an entity or person to utilise capital in order to realise a favorable future outcome, hence the term 'invest', the primary factor that determines the success of an investment is how well its associated risks are defined and managed. Investing for a favorable future outcome requires rigorous risk management. This is so because often, investors are required to make investment decisions in an uncertain and dynamic environment.
+Investing is a difficult task to carry out successfully. On a personal level, I feel that the term 'investing' is somewhat of a misnomer. Although the act of investing involves utilising present capital to realise a favorable future outcome hence the term 'invest', the primary factor that determines the success of an investment is how well its associated risks are defined and managed. Investing for a favorable future outcome requires rigorous risk management throughout the investment duration. This is so because often, investors are required to make investment decisions in an uncertain and dynamic environment.
 
 There are many uncertainties or risks that needs to be understood on a granular level and if the investor fails to understand these risks and account for them, they may be setting themselves up for a failed investing endeavor even before they begin.
 
-One of the most fundamental risk that an investor or steward of capital needs to appreciate is future demand or future economic growth. If the CEO of an automobile company or the Chief Investing Officer of a hedge fund decides to invest significant sums of money to expand their business or to generate returns for their clients/shareholders, he or she needs to be able to appreciate that at a fundamental level, there must growing economic demand to support the basis for expansion or investment.
+One of the most fundamental risk that an investor or steward of capital needs to appreciate is future demand or future economic growth. If the CEO of an automobile company or the Chief Investing Officer of a hedge fund decides to invest significant amounts of capital to expand their business or to generate returns for their clients/shareholders, he or she needs to be able to appreciate that at a fundamental level, there must growing economic demand to support the basis for expansion or investment.
 
 If these persons are able to assess with accuracy whether future GDP is growing or shrinking, they would be able to make a more informed decision even in periods of uncertainty where GDP has yet to be reported and make better investment decisions to realise a probabilistically better outcome.
 
@@ -37,9 +28,9 @@ Investing today to achieve an envisioned future outcome is a difficult task to a
 
 One of the very basic questions that needs to be answered in this example is:
 
-**"Would Europeans demand to purchase more electric vehicles increase, and in turn drive increased demand for more batteries produced from their gigafactory in future?".**
+**"Would Europeans demand to for electric vehicles increase, and in turn drive increased demand for more batteries produced from their gigafactory in future?".**
 
-The answer to the question is very much rooted in whether people would be able to afford to buy an electric vehicle in the future and that very much depends on whether their economic prospects are secure and growing. If we are able to understand on a very fundamental level that the average European is looking forward to growing and rising economic prospects, then it is reasonable to say that the average European would then be able to afford and purchase an electric vehicle, driving increased demand for the batteries the gigafactory produces, all else being equal.
+The answer to the question is very much rooted in whether people would be able to afford to buy an electric vehicle in the future and that very much depends on whether their economic prospects are secure and growing. If we are able to understand on a very fundamental level that the average European is looking forward to growing and rising economic prospects, then it is reasonable to say that the average European would then be able to afford and purchase an electric vehicle, driving increased demand for the batteries the gigafactory produces, all else being equal. 
 
 Such insights can be a powerful tool to establish a fundamental baseline of what to expect economically in the future. 
 
@@ -53,7 +44,7 @@ To provide empirical evidence on the effects of GDP growth and company earnings,
 
 ## US Economy Drives Global Growth, Including Singapore
 
-The relationship between Europe and US GDP are apparent because [The EU and the United States are each other’s main trading partners and account for the largest bilateral trade relationship in the world](https://www.eeas.europa.eu/united-states-america/european-union-and-united-states_en?s=253#:~:text=Deep%20Economic%20Ties,-The%20EU%2DUS&text=The%20EU%20and%20the%20United%20States%20are%20each%20other's%20main,investment%20markets%20of%20first%20choice.) This dynamic also ring true for countries that are [highly dependend on international trade and have the US as a major trading partner](https://www.singstat.gov.sg/modules/infographics/singapore-international-trade#:~:text=In%202022%2C%20Mainland%20China%2C%20Malaysia,exports%20to%20these%20trading%20partners.), such as Singapore. Singapore trades with many countries that depends on the financial system administered by the US and directly depend on US demand for exports and economic growth (GDP). Therefore, if the US is forecasted to have lower or negative GDP growth, Singapore and most of her trading partners will be expected to have lower or negative GDP growth in their respective economies too. In short, many economies like Singapore behaves as a reactive function to the US Economy.
+The relationship between Europe and US GDP are apparent because [The EU and the United States are each other’s main trading partners and account for the largest bilateral trade relationship in the world](https://www.eeas.europa.eu/united-states-america/european-union-and-united-states_en?s=253#:~:text=Deep%20Economic%20Ties,-The%20EU%2DUS&text=The%20EU%20and%20the%20United%20States%20are%20each%20other's%20main,investment%20markets%20of%20first%20choice.) This relationship also ring true for countries that are [highly dependend on international trade and have the US as a major trading partner](https://www.singstat.gov.sg/modules/infographics/singapore-international-trade#:~:text=In%202022%2C%20Mainland%20China%2C%20Malaysia,exports%20to%20these%20trading%20partners.), such as Singapore. Singapore trades with many countries that depends on the financial system administered by the US and directly depend on US demand for exports and economic growth (GDP). Therefore, if the US is forecasted to have lower or negative GDP growth, Singapore and most of her trading partners will be expected to have lower or negative GDP growth in their respective economies too. In short, many economies like Singapore behaves as a reactive function to the US Economy.
 
 Therefore, in order to empower investment decision makers across regions, functions and industries, I aim to predict the most fundamental and prevalent precursor for demand, US GDP. By doing so, these stakeholders can quantify future demand and help them make better investment decisions today.
 
